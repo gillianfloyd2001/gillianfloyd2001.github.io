@@ -36,7 +36,6 @@ body {
 ol, ul {
 	list-style: none;
 }
-
 blockquote, q {
 	quotes: none;
 }
@@ -1607,8 +1606,8 @@ input, select, textarea {
 				color: #fff;
 			}
 
-/* Section/Article */
 
+/* Section/Article */
 	section, article {
 		margin-bottom: 3em;
 	}
@@ -1621,11 +1620,7 @@ input, select, textarea {
 	}
 
 /* Image */
-
-	.image {
-		display: inline-block;
-		position: relative;
-	}
+	
 
 		.image img {
 			display: block;
@@ -1658,6 +1653,7 @@ input, select, textarea {
 			.image.centered img {
 				margin: 0 auto;
 				width: auto;
+				margin-right: 0; 
 			}
 
 /* Button */
@@ -1748,6 +1744,10 @@ input, select, textarea {
 			}
 
 /* List */
+	li {
+		list-style: none;
+
+	}
 
 	ul {
 		list-style: disc;
@@ -2444,4 +2444,7 @@ input, select, textarea {
 						margin-top: 0;
 					}
 
+	}
+	a.project1 {
+		display: block;
 	}
